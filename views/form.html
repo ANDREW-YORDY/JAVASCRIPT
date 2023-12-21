@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container body-cont">
+    <header class="bg-danger mt-1" style="height: 120px;">
+        <h1 class="text-white text-center"><b>HEADER</b> / Encabezado de la Página</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container">
+                <a class="navbar-brand" href="#">NAV / LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-5 bg-black col" style="height: 150px; overflow: hidden;">
+        <div class="row h-100">
+            <article class="col-md-8 bg-primary text-center overflow-auto">
+                <h3 class="text-white"><b>ARTICLE</b> / Título del Artículo</h3>
+                <p>Contenido del artículo...</p>
+            </article>
+            <aside class="col-md-4 bg-success">
+                <h3 class="text-white"><b>ASIDE</b></h3>
+            </aside>
+        </div>
+
+        <!-- Agrega tu contenedor #container-form aquí -->
+        <div id="container-form" class="bg-info" style="height: 100px;">
+            <!-- Contenido del formulario u otros elementos -->
+            <h4>cont-id</h4>
+        </div>
+    </main>
+
+    <footer class="bg-warning mt-2 text-cente" style="height: 80px;">
+        <div class="container">
+            <h2 class="text-white"><b>FOOTER</b></h2>
+            <p class="text-white">&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Scripts de JavaScript u otras inclusiones al final del body -->
+    <script src="/index.js" type="node_modules"></script>
+</body>
+
+</html>
